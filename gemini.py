@@ -113,9 +113,3 @@ with open("0500-prompt.txt", "w") as output_file:
 
         # 指定の形式でファイルに出力
         output_file.write(f"{filename}\t{label}\n")
-
-# Commented out IPython magic to ensure Python compatibility.
-# %%shell
-# git remote add origin https://github.com/takahiro-okamoto223/LLM.git
-# git branch -M main
-# git push -u origin main
